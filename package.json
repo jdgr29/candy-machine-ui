@@ -1,7 +1,7 @@
 {
   "name": "candy-machine-mint",
   "version": "0.2.0",
-  "homepage": "https://jdaniel96.github.io/",
+  "homepage": "https://jdaniel96.github.io/candy-machine-ui",
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.15.5",
