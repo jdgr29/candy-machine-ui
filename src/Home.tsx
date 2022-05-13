@@ -43,6 +43,14 @@ const ConnectButton = styled(WalletDialogButton)`
   font-weight: bold;
 `;
 
+const SPACEVIZSLA = function(){
+  return(
+    <div>
+      <h1 style={{textAlign: 'center', color: 'red', marginTop: '2em', background:'-webkit-linear-gradient(#08113B, #08113B)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',}}>SPACE VIZSLA</h1>
+    </div>
+  )
+}
+
 const MintContainer = styled.div``; // add your owns styles here
 
 export interface HomeProps {
@@ -477,7 +485,10 @@ const Home = (props: HomeProps) => {
   }, [refreshCandyMachineState]);
 
   return (
+    <div>
+    <SPACEVIZSLA/>
     <Container style={{ marginTop: 100 }}>
+
       <Container maxWidth="xs" style={{ position: 'relative' }}>
         <Paper
           style={{
@@ -719,6 +730,7 @@ const Home = (props: HomeProps) => {
         </Alert>
       </Snackbar>
     </Container>
+  </div>
   );
 };
 
